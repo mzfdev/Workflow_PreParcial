@@ -1,0 +1,8 @@
+C:\Users\alexr\Desktop\Workflow_PreParcial\Pre_Parcial\Pre_Parcial\bin\Debug\Pre_Parcial.exe.config
+C:\Users\alexr\Desktop\Workflow_PreParcial\Pre_Parcial\Pre_Parcial\bin\Debug\Pre_Parcial.exe
+C:\Users\alexr\Desktop\Workflow_PreParcial\Pre_Parcial\Pre_Parcial\bin\Debug\Pre_Parcial.pdb
+C:\Users\alexr\Desktop\Workflow_PreParcial\Pre_Parcial\Pre_Parcial\obj\Debug\Pre_Parcial.csprojAssemblyReference.cache
+C:\Users\alexr\Desktop\Workflow_PreParcial\Pre_Parcial\Pre_Parcial\obj\Debug\Pre_Parcial.Properties.Resources.resources
+C:\Users\alexr\Desktop\Workflow_PreParcial\Pre_Parcial\Pre_Parcial\obj\Debug\Pre_Parcial.csproj.GenerateResource.cache
+C:\Users\alexr\Desktop\Workflow_PreParcial\Pre_Parcial\Pre_Parcial\obj\Debug\Pre_Parcial.exe
+C:\Users\alexr\Desktop\Workflow_PreParcial\Pre_Parcial\Pre_Parcial\obj\Debug\Pre_Parcial.pdb
