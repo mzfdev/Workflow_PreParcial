@@ -20,6 +20,9 @@
         <e p="Login.cs" t="Include" />
         <e p="Login.Designer.cs" t="Include" />
         <e p="Login.resx" t="Include" />
+        <e p="ModInv.cs" t="Include" />
+        <e p="ModInv.Designer.cs" t="Include" />
+        <e p="ModInv.resx" t="Include" />
         <e p="ModUser.cs" t="Include" />
         <e p="ModUser.Designer.cs" t="Include" />
         <e p="ModUser.resx" t="Include" />
