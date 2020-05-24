@@ -73,6 +73,12 @@
         <Compile Include="Form1.Designer.cs">
             <DependentUpon>Form1.cs</DependentUpon>
         </Compile>
+        <Compile Include="HisotorialPedidos.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="HisotorialPedidos.Designer.cs">
+          <DependentUpon>HisotorialPedidos.cs</DependentUpon>
+        </Compile>
         <Compile Include="Login.cs">
           <SubType>UserControl</SubType>
         </Compile>
@@ -122,6 +128,9 @@
         </EmbeddedResource>
         <EmbeddedResource Include="Form1.resx">
           <DependentUpon>Form1.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="HisotorialPedidos.resx">
+          <DependentUpon>HisotorialPedidos.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Login.resx">
           <DependentUpon>Login.cs</DependentUpon>
