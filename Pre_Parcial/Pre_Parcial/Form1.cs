@@ -21,5 +21,10 @@ namespace Pre_Parcial
         {
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

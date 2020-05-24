@@ -32,10 +32,10 @@ namespace Pre_Parcial
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +61,16 @@ namespace Pre_Parcial
             this.tableLayoutPanel1.Size = new System.Drawing.Size(504, 388);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button2.Location = new System.Drawing.Point(3, 197);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(195, 188);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Volver";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -75,7 +85,7 @@ namespace Pre_Parcial
             // 
             this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(255, 78);
+            this.comboBox1.Location = new System.Drawing.Point(255, 85);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(195, 23);
             this.comboBox1.TabIndex = 1;
@@ -89,16 +99,6 @@ namespace Pre_Parcial
             this.button1.TabIndex = 2;
             this.button1.Text = "Eliminar Articulo";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button2.Location = new System.Drawing.Point(3, 197);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(195, 188);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Volver";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // DelInv
             // 
