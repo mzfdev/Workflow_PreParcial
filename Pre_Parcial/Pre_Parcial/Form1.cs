@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Common;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -24,7 +25,19 @@ namespace Pre_Parcial
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+            var dt = Conexion.realizarConsulta($"SELECT ADMON FROM USUARIO");
+            var dr = dt.Rows[0];
+
+            if (dr[0].ToString()=="True")
+            { 
+                FormAdmon frmA= new FormAdmon();
+                frmA.Show();
+            }
+            else if (dr[0].ToString()=="false")
+            {
+                FormNoAdmon frmN= new FormNoAdmon();
+                frmN.Show();
+            }
         }
     }
 }

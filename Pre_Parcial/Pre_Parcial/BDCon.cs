@@ -6,11 +6,9 @@ namespace Pre_Parcial
     
         public static class Conexion
         {
-            //public static string CadenaConexion = 
-            //    "Server=localhost;Port=5432;User Id=postgres;Password=root;Database=bddPedidos;";
 
             private static string CadenaConexion = 
-                "Server=10.0.2.2;Port=5432;User Id=postgres;Password=root;Database=bddPedidos";
+                "Server=127.0.0.1;Port=5432;User Id=postgres;Password=uca;Database=Scientia";
         
             public static DataTable realizarConsulta(string sql)
             {
