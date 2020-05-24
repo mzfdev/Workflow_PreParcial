@@ -79,6 +79,12 @@
         <Compile Include="ModUser.Designer.cs">
           <DependentUpon>ModUser.cs</DependentUpon>
         </Compile>
+        <Compile Include="NewInv.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="NewInv.Designer.cs">
+          <DependentUpon>NewInv.cs</DependentUpon>
+        </Compile>
         <Compile Include="NewUser.cs">
           <SubType>UserControl</SubType>
         </Compile>
@@ -107,6 +113,9 @@
         </EmbeddedResource>
         <EmbeddedResource Include="ModUser.resx">
           <DependentUpon>ModUser.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="NewInv.resx">
+          <DependentUpon>NewInv.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="NewUser.resx">
           <DependentUpon>NewUser.cs</DependentUpon>

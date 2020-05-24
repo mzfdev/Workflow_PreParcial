@@ -23,6 +23,9 @@
         <e p="ModUser.cs" t="Include" />
         <e p="ModUser.Designer.cs" t="Include" />
         <e p="ModUser.resx" t="Include" />
+        <e p="NewInv.cs" t="Include" />
+        <e p="NewInv.Designer.cs" t="Include" />
+        <e p="NewInv.resx" t="Include" />
         <e p="NewUser.cs" t="Include" />
         <e p="NewUser.Designer.cs" t="Include" />
         <e p="NewUser.resx" t="Include" />
