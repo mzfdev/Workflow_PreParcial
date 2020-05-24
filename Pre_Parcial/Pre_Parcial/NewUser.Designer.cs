@@ -32,11 +32,11 @@ namespace Pre_Parcial
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
@@ -71,6 +71,24 @@ namespace Pre_Parcial
             this.tableLayoutPanel1.Size = new System.Drawing.Size(489, 421);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
+            // textBox2
+            // 
+            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox2.Location = new System.Drawing.Point(236, 146);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(212, 23);
+            this.textBox2.TabIndex = 4;
+            // 
+            // label3
+            // 
+            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label3.Location = new System.Drawing.Point(3, 105);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(189, 105);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Contraseña";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -91,16 +109,6 @@ namespace Pre_Parcial
             this.label2.Text = "Desea ser Admon?";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label3
-            // 
-            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Location = new System.Drawing.Point(3, 105);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(189, 105);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Contraseña";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // textBox1
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -109,19 +117,11 @@ namespace Pre_Parcial
             this.textBox1.Size = new System.Drawing.Size(212, 23);
             this.textBox1.TabIndex = 3;
             // 
-            // textBox2
-            // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.Location = new System.Drawing.Point(236, 146);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(212, 23);
-            this.textBox2.TabIndex = 4;
-            // 
             // comboBox1
             // 
             this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(238, 244);
+            this.comboBox1.Location = new System.Drawing.Point(238, 251);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(207, 23);
             this.comboBox1.TabIndex = 5;

@@ -11,6 +11,9 @@
         <e p="Admon.resx" t="Include" />
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="DeleteUser.cs" t="Include" />
+        <e p="DeleteUser.Designer.cs" t="Include" />
+        <e p="DeleteUser.resx" t="Include" />
         <e p="Form1.cs" t="Include" />
         <e p="Form1.Designer.cs" t="Include" />
         <e p="Form1.resx" t="Include" />
