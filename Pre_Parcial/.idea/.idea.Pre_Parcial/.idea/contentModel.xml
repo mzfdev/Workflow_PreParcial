@@ -17,6 +17,9 @@
         <e p="Login.cs" t="Include" />
         <e p="Login.Designer.cs" t="Include" />
         <e p="Login.resx" t="Include" />
+        <e p="NewUser.cs" t="Include" />
+        <e p="NewUser.Designer.cs" t="Include" />
+        <e p="NewUser.resx" t="Include" />
         <e p="NoAdmon.cs" t="Include" />
         <e p="NoAdmon.Designer.cs" t="Include" />
         <e p="NoAdmon.resx" t="Include" />
