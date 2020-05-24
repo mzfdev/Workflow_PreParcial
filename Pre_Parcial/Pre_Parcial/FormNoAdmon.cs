@@ -2,12 +2,11 @@
 
 namespace Pre_Parcial
 {
-    public partial class Admon : UserControl
+    public partial class FormNoAdmon : Form
     {
-        public Admon()
+        public FormNoAdmon()
         {
             InitializeComponent();
         }
-        
     }
 }

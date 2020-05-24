@@ -58,7 +58,7 @@ namespace Pre_Parcial
             this.tableLayoutPanel1.RowStyles.Add(
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(
-                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 408F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(573, 408);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -143,6 +143,7 @@ namespace Pre_Parcial
             this.button1.TabIndex = 5;
             this.button1.Text = "Iniciar Sesion";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Login
             // 

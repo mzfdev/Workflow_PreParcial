@@ -16,5 +16,10 @@ namespace Pre_Parcial
         {
             InitializeComponent();
         }
+
+        private void login1_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

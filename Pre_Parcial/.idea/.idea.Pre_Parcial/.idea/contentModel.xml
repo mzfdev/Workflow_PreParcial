@@ -20,6 +20,12 @@
         <e p="Form1.cs" t="Include" />
         <e p="Form1.Designer.cs" t="Include" />
         <e p="Form1.resx" t="Include" />
+        <e p="FormAdmon.cs" t="Include" />
+        <e p="FormAdmon.Designer.cs" t="Include" />
+        <e p="FormAdmon.resx" t="Include" />
+        <e p="FormNoAdmon.cs" t="Include" />
+        <e p="FormNoAdmon.Designer.cs" t="Include" />
+        <e p="FormNoAdmon.resx" t="Include" />
         <e p="HisotorialPedidos.cs" t="Include" />
         <e p="HisotorialPedidos.Designer.cs" t="Include" />
         <e p="HisotorialPedidos.resx" t="Include" />

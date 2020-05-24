@@ -73,6 +73,18 @@
         <Compile Include="Form1.Designer.cs">
             <DependentUpon>Form1.cs</DependentUpon>
         </Compile>
+        <Compile Include="FormAdmon.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="FormAdmon.Designer.cs">
+          <DependentUpon>FormAdmon.cs</DependentUpon>
+        </Compile>
+        <Compile Include="FormNoAdmon.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="FormNoAdmon.Designer.cs">
+          <DependentUpon>FormNoAdmon.cs</DependentUpon>
+        </Compile>
         <Compile Include="HisotorialPedidos.cs">
           <SubType>UserControl</SubType>
         </Compile>
@@ -128,6 +140,12 @@
         </EmbeddedResource>
         <EmbeddedResource Include="Form1.resx">
           <DependentUpon>Form1.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="FormAdmon.resx">
+          <DependentUpon>FormAdmon.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="FormNoAdmon.resx">
+          <DependentUpon>FormNoAdmon.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="HisotorialPedidos.resx">
           <DependentUpon>HisotorialPedidos.cs</DependentUpon>
