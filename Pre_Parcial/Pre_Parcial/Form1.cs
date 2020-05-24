@@ -25,7 +25,7 @@ namespace Pre_Parcial
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var dt = Conexion.realizarConsulta($"SELECT ADMON FROM USUARIO");
+            var dt = Conexion.realizarConsulta($"SELECT ADMON FROM USUARIO WHERE nombre='HersonM'");
             var dr = dt.Rows[0];
 
             if (dr[0].ToString()=="True")
