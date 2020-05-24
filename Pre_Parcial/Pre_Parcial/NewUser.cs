@@ -19,7 +19,7 @@ namespace Pre_Parcial
                 textBox2.Equals(""))
 
             {
-                MessageBox.Show("No puede dejar los campos vacios");
+                MessageBox.Show("No puede dejar los campos vacios!");
             }
             else
             {
