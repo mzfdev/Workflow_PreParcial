@@ -7,6 +7,7 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="Pre_Parcial" t="IncludeRecursive">
         <e p="App.config" t="Include" />
+        <e p="BDCon.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="DeleteUser.cs" t="Include" />
         <e p="DeleteUser.Designer.cs" t="Include" />
@@ -39,6 +40,7 @@
         <e p="NewUser.Designer.cs" t="Include" />
         <e p="NewUser.resx" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
         <e p="Pre_Parcial.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
