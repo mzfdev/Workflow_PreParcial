@@ -49,12 +49,6 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Admon.cs">
-          <SubType>UserControl</SubType>
-        </Compile>
-        <Compile Include="Admon.Designer.cs">
-          <DependentUpon>Admon.cs</DependentUpon>
-        </Compile>
         <Compile Include="DeleteUser.cs">
           <SubType>UserControl</SubType>
         </Compile>
@@ -91,12 +85,6 @@
         <Compile Include="HisotorialPedidos.Designer.cs">
           <DependentUpon>HisotorialPedidos.cs</DependentUpon>
         </Compile>
-        <Compile Include="Login.cs">
-          <SubType>UserControl</SubType>
-        </Compile>
-        <Compile Include="Login.Designer.cs">
-          <DependentUpon>Login.cs</DependentUpon>
-        </Compile>
         <Compile Include="ModInv.cs">
           <SubType>UserControl</SubType>
         </Compile>
@@ -121,17 +109,8 @@
         <Compile Include="NewUser.Designer.cs">
           <DependentUpon>NewUser.cs</DependentUpon>
         </Compile>
-        <Compile Include="NoAdmon.cs">
-          <SubType>UserControl</SubType>
-        </Compile>
-        <Compile Include="NoAdmon.Designer.cs">
-          <DependentUpon>NoAdmon.cs</DependentUpon>
-        </Compile>
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <EmbeddedResource Include="Admon.resx">
-          <DependentUpon>Admon.cs</DependentUpon>
-        </EmbeddedResource>
         <EmbeddedResource Include="DeleteUser.resx">
           <DependentUpon>DeleteUser.cs</DependentUpon>
         </EmbeddedResource>
@@ -150,9 +129,6 @@
         <EmbeddedResource Include="HisotorialPedidos.resx">
           <DependentUpon>HisotorialPedidos.cs</DependentUpon>
         </EmbeddedResource>
-        <EmbeddedResource Include="Login.resx">
-          <DependentUpon>Login.cs</DependentUpon>
-        </EmbeddedResource>
         <EmbeddedResource Include="ModInv.resx">
           <DependentUpon>ModInv.cs</DependentUpon>
         </EmbeddedResource>
@@ -164,9 +140,6 @@
         </EmbeddedResource>
         <EmbeddedResource Include="NewUser.resx">
           <DependentUpon>NewUser.cs</DependentUpon>
-        </EmbeddedResource>
-        <EmbeddedResource Include="NoAdmon.resx">
-          <DependentUpon>NoAdmon.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Properties\Resources.resx">
             <Generator>ResXFileCodeGenerator</Generator>

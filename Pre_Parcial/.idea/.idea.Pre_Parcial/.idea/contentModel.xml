@@ -6,9 +6,6 @@
     <e p="C:\Users\alexr\Desktop\Workflow_PreParcial\Pre_Parcial" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Pre_Parcial" t="IncludeRecursive">
-        <e p="Admon.cs" t="Include" />
-        <e p="Admon.Designer.cs" t="Include" />
-        <e p="Admon.resx" t="Include" />
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="DeleteUser.cs" t="Include" />
@@ -29,9 +26,6 @@
         <e p="HisotorialPedidos.cs" t="Include" />
         <e p="HisotorialPedidos.Designer.cs" t="Include" />
         <e p="HisotorialPedidos.resx" t="Include" />
-        <e p="Login.cs" t="Include" />
-        <e p="Login.Designer.cs" t="Include" />
-        <e p="Login.resx" t="Include" />
         <e p="ModInv.cs" t="Include" />
         <e p="ModInv.Designer.cs" t="Include" />
         <e p="ModInv.resx" t="Include" />
@@ -44,9 +38,6 @@
         <e p="NewUser.cs" t="Include" />
         <e p="NewUser.Designer.cs" t="Include" />
         <e p="NewUser.resx" t="Include" />
-        <e p="NoAdmon.cs" t="Include" />
-        <e p="NoAdmon.Designer.cs" t="Include" />
-        <e p="NoAdmon.resx" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Pre_Parcial.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
