@@ -6,11 +6,17 @@
     <e p="C:\Users\alexr\Desktop\Workflow_PreParcial\Pre_Parcial" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Pre_Parcial" t="IncludeRecursive">
+        <e p="Admon.cs" t="Include" />
+        <e p="Admon.Designer.cs" t="Include" />
+        <e p="Admon.resx" t="Include" />
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Form1.cs" t="Include" />
         <e p="Form1.Designer.cs" t="Include" />
         <e p="Form1.resx" t="Include" />
+        <e p="Login.cs" t="Include" />
+        <e p="Login.Designer.cs" t="Include" />
+        <e p="Login.resx" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Pre_Parcial.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
