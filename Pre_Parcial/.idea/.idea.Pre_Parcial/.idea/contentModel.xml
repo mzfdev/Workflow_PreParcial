@@ -14,6 +14,9 @@
         <e p="DeleteUser.cs" t="Include" />
         <e p="DeleteUser.Designer.cs" t="Include" />
         <e p="DeleteUser.resx" t="Include" />
+        <e p="DelInv.cs" t="Include" />
+        <e p="DelInv.Designer.cs" t="Include" />
+        <e p="DelInv.resx" t="Include" />
         <e p="Form1.cs" t="Include" />
         <e p="Form1.Designer.cs" t="Include" />
         <e p="Form1.resx" t="Include" />
