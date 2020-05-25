@@ -106,6 +106,7 @@ namespace Pre_Parcial
             this.button1.TabIndex = 2;
             this.button1.Text = "Modificar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -132,6 +133,7 @@ namespace Pre_Parcial
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "ModInv";
             this.Size = new System.Drawing.Size(520, 419);
+            this.Load += new System.EventHandler(this.ModInv_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
