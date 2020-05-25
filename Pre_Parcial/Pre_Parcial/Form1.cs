@@ -27,6 +27,8 @@ namespace Pre_Parcial
         {
             try
             {
+                
+                
 
                 var dn = Conexion.realizarConsulta($"SELECT nombre FROM USUARIO WHERE nombre = '{textBox1.Text}'");
                 var dr1 = dn.Rows[0];

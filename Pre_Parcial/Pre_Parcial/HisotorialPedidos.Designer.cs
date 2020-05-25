@@ -53,7 +53,7 @@ namespace Pre_Parcial
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.93204F));
             this.tableLayoutPanel1.RowStyles.Add(
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 81.06796F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(536, 412);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(535, 412);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // label1
@@ -61,7 +61,7 @@ namespace Pre_Parcial
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(530, 78);
+            this.label1.Size = new System.Drawing.Size(529, 78);
             this.label1.TabIndex = 0;
             this.label1.Text = "Historial de Pedidos";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -73,7 +73,7 @@ namespace Pre_Parcial
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 81);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(530, 328);
+            this.dataGridView1.Size = new System.Drawing.Size(529, 328);
             this.dataGridView1.TabIndex = 1;
             // 
             // HisotorialPedidos
@@ -82,7 +82,7 @@ namespace Pre_Parcial
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "HisotorialPedidos";
-            this.Size = new System.Drawing.Size(536, 412);
+            this.Size = new System.Drawing.Size(535, 412);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
