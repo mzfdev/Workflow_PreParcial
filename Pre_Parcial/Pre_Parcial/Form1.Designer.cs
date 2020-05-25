@@ -93,9 +93,11 @@
             // textBox2
             // 
             this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.Location = new System.Drawing.Point(358, 190);
+            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.textBox2.Location = new System.Drawing.Point(358, 192);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(213, 37);
+            this.textBox2.Size = new System.Drawing.Size(213, 32);
             this.textBox2.TabIndex = 4;
             // 
             // label2
@@ -125,9 +127,11 @@
             // textBox1
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Location = new System.Drawing.Point(358, 51);
+            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.textBox1.Location = new System.Drawing.Point(358, 53);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(213, 37);
+            this.textBox1.Size = new System.Drawing.Size(213, 32);
             this.textBox1.TabIndex = 3;
             // 
             // button1

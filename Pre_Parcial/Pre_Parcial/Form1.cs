@@ -25,18 +25,40 @@ namespace Pre_Parcial
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var dt = Conexion.realizarConsulta($"SELECT ADMON FROM USUARIO WHERE nombre='HersonM'");
-            var dr = dt.Rows[0];
-
-            if (dr[0].ToString()=="True")
-            { 
-                FormAdmon frmA= new FormAdmon();
-                frmA.Show();
-            }
-            else if (dr[0].ToString()=="false")
+            try
             {
-                FormNoAdmon frmN= new FormNoAdmon();
-                frmN.Show();
+
+                var dn = Conexion.realizarConsulta($"SELECT nombre FROM USUARIO WHERE nombre = '{textBox1.Text}'");
+                var dr1 = dn.Rows[0];
+
+                var dc2 = Conexion.realizarConsulta($"SELECT contraseña FROM USUARIO WHERE nombre = '{textBox1.Text}'");
+                var dr2 = dc2.Rows[0];
+
+
+                if (dr1[0].ToString().Equals(textBox1.Text) && dr2[0].ToString().Equals(textBox2.Text))
+                {
+                    var dt = Conexion.realizarConsulta($"SELECT ADMON FROM USUARIO WHERE nombre='{textBox1.Text}'");
+                    var dr = dt.Rows[0];
+
+                    if (dr[0].ToString() == "True")
+                    {
+                        FormAdmon frmA = new FormAdmon();
+                        frmA.Show();
+                    }
+                    else if (dr[0].ToString() == "False")
+                    {
+                        FormNoAdmon frmN = new FormNoAdmon();
+                        frmN.Show();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Datos incorrectos");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Datos incorrectos");
             }
         }
     }
