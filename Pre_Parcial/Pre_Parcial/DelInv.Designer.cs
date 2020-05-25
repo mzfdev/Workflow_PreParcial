@@ -99,6 +99,7 @@ namespace Pre_Parcial
             this.button1.TabIndex = 2;
             this.button1.Text = "Eliminar Articulo";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // DelInv
             // 
@@ -107,6 +108,7 @@ namespace Pre_Parcial
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "DelInv";
             this.Size = new System.Drawing.Size(504, 388);
+            this.Load += new System.EventHandler(this.DelInv_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
         }
