@@ -9,7 +9,7 @@ namespace Pre_Parcial
         public NewUser()
         {
             InitializeComponent();
-            var user = new List<string>{"true","false"};
+            var user = new List<bool>{true,false};
             comboBox1.DataSource = user;
         }
 
@@ -25,12 +25,12 @@ namespace Pre_Parcial
             {
                 try
                 {
-                    Conexion.realizarConsulta($"INSERT INTO USUARIO VALUES(" +
+                    Conexion.realizarAccion($"INSERT INTO USUARIO(nombre,contraseña,admon) VALUES(" +
                                               $"'{textBox1.Text}'," +
                                               $"'{textBox2.Text}'," +
-                                              $"'{comboBox1.SelectedItem.ToString()}')");
+                                              $"{comboBox1.SelectedItem})");
 
-                                              MessageBox.Show("Ha ocurrido un error");
+                                              MessageBox.Show("USUARIO ANADIDO");
                 }
                 catch (Exception esg)
                 {
