@@ -49,7 +49,8 @@ namespace Pre_Parcial
                     }
                     else if (dr[0].ToString() == "False")
                     {
-                        FormNoAdmon frmN = new FormNoAdmon();
+                        string usuario = textBox1.Text;
+                        FormNoAdmon frmN = new FormNoAdmon(usuario);
                         frmN.Show();
                     }
                 }

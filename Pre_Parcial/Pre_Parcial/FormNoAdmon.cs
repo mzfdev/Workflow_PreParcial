@@ -7,11 +7,16 @@ namespace Pre_Parcial
 {
     public partial class FormNoAdmon : Form
     {
+        private string user = "";
         public FormNoAdmon()
         {
             InitializeComponent();
         }
-
+        public FormNoAdmon(string usuario)
+        {
+            InitializeComponent();
+            user = usuario;
+        }
         private void FormNoAdmon_Load(object sender, EventArgs e)
         {
             var videogames = Conexion.realizarConsulta("SELECT nombre_art FROM INVENTARIO");
@@ -58,6 +63,18 @@ namespace Pre_Parcial
                 }
             }
         }
-        
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var dt = Conexion.realizarConsulta(
+                $"SELECT id_pedido, codigo_articulo, nombre_user,cantidad, nombre_art, precio FROM PEDIDO " +
+                $"inner join INVENTARIO on codigo_articulo = id_articulo WHERE nombre_user='{this.user}'");
+            dataGridView1.DataSource = dt;
+        }
     }
 }
