@@ -34,25 +34,25 @@ namespace Pre_Parcial
             }
             else
             {
+
                 try
                 {
-                    
-                   
-                    string query =
-                        $"SELECT id_articulo FROM INVENTARIO WHERE nombre_art='{comboBox1.SelectedItem.ToString()}'";
-                    var dt = Conexion.realizarConsulta(query);
+
+                    var dt = Conexion.realizarConsulta(
+                        $"SELECT id_articulo FROM INVENTARIO WHERE nombre_art='{comboBox1.SelectedItem.ToString()}'");
                     var dr = dt.Rows[0];
                     var Codigo_articulo = Convert.ToInt32(dr[0].ToString());
 
                     string nonquery = $"INSERT INTO PEDIDO (codigo_articulo, cantidad, nombre_user) VALUES (" +
                                       $"{Codigo_articulo}," +
-                                      $"'{textBox1.Text}'"+
+                                      $"{textBox1.Text}," +
                                       $"'{textBox2.Text}')";
                     Conexion.realizarAccion(nonquery);
 
-                                      MessageBox.Show("Pedido Realizado");
+                    MessageBox.Show("Pedido Realizado");
+
                 }
-                catch (Exception esg)
+                catch (Exception ex)
                 {
                     MessageBox.Show("Ha ocurrido un error");
                 }
