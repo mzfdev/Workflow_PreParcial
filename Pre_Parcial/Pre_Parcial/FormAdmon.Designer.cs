@@ -31,6 +31,8 @@ namespace Pre_Parcial
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources =
+                new System.ComponentModel.ComponentResourceManager(typeof(FormAdmon));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button6 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -48,6 +50,8 @@ namespace Pre_Parcial
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackgroundImage =
+                ((System.Drawing.Image) (resources.GetObject("tableLayoutPanel1.BackgroundImage")));
             this.tableLayoutPanel1.ColumnCount = 5;
             this.tableLayoutPanel1.ColumnStyles.Add(
                 new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.42908F));
@@ -234,6 +238,7 @@ namespace Pre_Parcial
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(864, 477);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
             this.Name = "FormAdmon";
             this.Text = "FormAdmon";
             this.tableLayoutPanel1.ResumeLayout(false);

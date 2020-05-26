@@ -31,6 +31,8 @@ namespace Pre_Parcial
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources =
+                new System.ComponentModel.ComponentResourceManager(typeof(ModInv));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -43,6 +45,8 @@ namespace Pre_Parcial
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackgroundImage =
+                ((System.Drawing.Image) (resources.GetObject("tableLayoutPanel1.BackgroundImage")));
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(
                 new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
@@ -88,24 +92,30 @@ namespace Pre_Parcial
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (0)))),
+                ((int) (((byte) (192)))));
             this.button2.Location = new System.Drawing.Point(3, 281);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(202, 135);
             this.button2.TabIndex = 3;
             this.button2.Text = "Volver";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (0)))),
+                ((int) (((byte) (192)))));
             this.button1.Location = new System.Drawing.Point(211, 281);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(306, 135);
             this.button1.TabIndex = 2;
             this.button1.Text = "Modificar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2

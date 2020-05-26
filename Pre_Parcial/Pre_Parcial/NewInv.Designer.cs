@@ -31,6 +31,8 @@ namespace Pre_Parcial
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources =
+                new System.ComponentModel.ComponentResourceManager(typeof(NewInv));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,6 +48,8 @@ namespace Pre_Parcial
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackgroundImage =
+                ((System.Drawing.Image) (resources.GetObject("tableLayoutPanel1.BackgroundImage")));
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(
                 new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
@@ -107,13 +111,15 @@ namespace Pre_Parcial
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.ForeColor = System.Drawing.Color.DarkBlue;
             this.button1.Location = new System.Drawing.Point(191, 287);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(278, 67);
             this.button1.TabIndex = 7;
             this.button1.Text = "Añadir Articulo";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
