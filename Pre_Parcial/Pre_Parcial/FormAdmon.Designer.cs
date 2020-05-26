@@ -212,6 +212,7 @@ namespace Pre_Parcial
             this.button9.TabIndex = 17;
             this.button9.Text = "Cerrar Sesion";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button8
             // 

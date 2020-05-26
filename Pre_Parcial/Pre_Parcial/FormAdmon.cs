@@ -75,5 +75,10 @@ namespace Pre_Parcial
             tableLayoutPanel1.Controls.Add(current,4,0);
             tableLayoutPanel1.SetRowSpan(current, 4);
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
