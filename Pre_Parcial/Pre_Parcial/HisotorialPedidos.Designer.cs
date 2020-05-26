@@ -83,6 +83,7 @@ namespace Pre_Parcial
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "HisotorialPedidos";
             this.Size = new System.Drawing.Size(535, 412);
+            this.Load += new System.EventHandler(this.HisotorialPedidos_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

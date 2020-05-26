@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\MZX\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\MZX\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Pre_Parcial.-52046350.00" t="ExcludeRecursive" />
-    <e p="C:\Users\MZX\Desktop\workflow\Prueba_PreParcial\Pre_Parcial" t="IncludeFlat">
+    <e p="C:\Users\alexr\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\alexr\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Pre_Parcial.-2099234756.00" t="ExcludeRecursive" />
+    <e p="C:\Users\alexr\Desktop\Workflow_PreParcial\Pre_Parcial" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Pre_Parcial" t="IncludeRecursive">
         <e p="App.config" t="Include" />
